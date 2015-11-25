@@ -1,0 +1,6 @@
+#test_homepage:
+#    path:     /hello/{name}
+#    defaults: { _controller: TestBundle:Default:index }
+test_homepage:
+    resource: "@TestBundle/Controller/"
+    type:     annotation

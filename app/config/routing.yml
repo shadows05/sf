@@ -1,3 +1,14 @@
+test:
+    resource: "@TestBundle/Resources/config/routing.yml"
+    prefix:   /
+#test:
+#    resource: "@TestBundle/Controller"
+#    type:      annotation
+#    prefix:   /
+
 app:
     resource: "@AppBundle/Controller/"
     type:     annotation
+
+logout:
+    path: /logout
