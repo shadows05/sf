@@ -37,4 +37,4 @@
 /composer.phar
 
 # Phpstorm project file
-.idea/
+/.idea/
